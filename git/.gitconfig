@@ -1,0 +1,13 @@
+[user]
+	name = Vitaly Dostovalov
+	email = dostovalovvs@gmail.com
+[push]
+	default = simple
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[core]
+	excludesfile = /Users/dostovalov/.gitignore
+[credential]
+	helper = osxkeychain
