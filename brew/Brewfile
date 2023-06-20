@@ -3,7 +3,6 @@ tap 'homebrew/bundle'
 
 cask 'visual-studio-code'
 cask 'iterm2'
-cask 'microsoft-teams'
 cask 'macpass'
 cask 'microsoft-remote-desktop'
 cask 'deepl'
