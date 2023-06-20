@@ -11,9 +11,7 @@ else
   echo "Homebrew is already installed...";
 fi
 
-brew install vault
-
-brew install --cask iterm2
+brew bundle --file $DOTFILES/Brewfile
 
 # Remove outdated versions from the cellar
 brew cleanup
