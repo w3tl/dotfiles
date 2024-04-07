@@ -36,3 +36,6 @@ defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
 # Show the full URL in the address bar (note: this still hides the scheme)
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+
+# Disable language indicator
+defaults write kCFPreferencesAnyApplication TSMLanguageIndicatorEnabled 0

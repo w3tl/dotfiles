@@ -3,6 +3,8 @@
 	email = dostovalovvs@gmail.com
 [push]
 	default = simple
+[pull]
+	rebase = true
 [commit]
 	gpgsign = true
 [gpg]
